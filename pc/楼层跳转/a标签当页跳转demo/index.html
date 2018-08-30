@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>当页跳转a标签</title>
+	</head>
+	<body>
+		<style type="text/css">
+		.header{
+			width: 100%;
+			height: 80px;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 200;
+		}
+		ul{
+			width: 100%;
+			height: 100%;
+		}
+		ul>li{
+			width: 16%;
+			height: 100%;
+			display: inline-block;
+			line-height: 80px;
+			text-align: center;
+		}
+			section{
+				width: 100%;
+				height: 300px;
+				border: 1px solid #000;
+			}
+		</style>
+        <div class="header">
+        	<ul>
+        		<li><a href="#one" target="_self">第一块</a></li>
+        		<li><a href="#two" target="_self">第二块</a></li>
+        		<li><a href="#three" target="_self">第三块</a></li>
+        		<li><a href="#four" target="_self">第四块</a></li>
+        		<li><a href="#five" target="_self">第五块</a></li>
+        	</ul>
+        </div>
+        <section id="one">第一块</section>
+        <section id="two">第二块</section>
+        <section id="three">第三块</section>
+        <section id="four">第四块</section>
+        <section id="five">第五块</section>
+	</body>
+	<script type="text/javascript">
+	</script>
+	</html>
